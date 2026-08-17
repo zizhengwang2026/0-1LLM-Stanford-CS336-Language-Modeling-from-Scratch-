@@ -1,0 +1,2 @@
+# 0-1LLM-Stanford-CS336-Language-Modeling-from-Scratch-
+The idea draws from the course philosophy of CS 336 — just as an operating‑systems course has you write an OS from scratch, you implement all LLM components (tokenizer, Transformer, training, data, system optimization, alignment) yourself starting from PyTorch tensor primitives, and document the pitfalls encountered and the underlying trade‑offs.
