@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge" alt="Python" />
   <img src="https://img.shields.io/badge/Built%20with-PyTorch-EE4C2C?style=for-the-badge" alt="PyTorch" />
   <img src="https://img.shields.io/badge/Level-Graduate%20%2F%20Hardcore-FF6F00?style=for-the-badge" alt="Level" />
-  <img src="https://img.shields.io/badge/Status-Learning%20%F0%9F%93%9A-2da44e?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Notes%2001--15%20%E2%9C%85-2da44e?style=for-the-badge" alt="Status" />
 </p>
 
 <p align="center">
@@ -178,18 +178,42 @@ CS336 是「造大脑」——两层不同、不是一回事，这课确实不�
 ├── 05-scaling/          # 扩展定律：IsoFLOP / Chinchilla
 ├── 06-data/             # 数据清洗 / 过滤 / 去重 / PII 移除
 ├── 07-alignment/        # SFT / RLHF / DPO / GRPO
-└── notes/               # 讲座重点解释 & 随想
+└── notes/               # 讲座重点解释 & 随想（共 15 讲）
 ```
 
 ---
 
 ## ✅ 学习进度
 
-- [ ] **A1** 分词器与 Transformer 基础
-- [ ] **A2** 系统优化（FlashAttention / 分布式）
-- [ ] **A3** 扩展定律
-- [ ] **A4** 数据工程
-- [ ] **A5** 对齐与推理 RL
+### 📓 讲座笔记（notes/，共 15 讲，已全部完成 ✅）
+
+| # | 主题 | 对应 CS336 / DIY-LLM | 状态 |
+| --- | --- | --- | --- |
+| 01 | 课程导论 + 分词 | L1 / 第1-2章 | ✅ |
+| 02 | PyTorch 与资源核算 | L2 / 第3章 | ✅ |
+| 03 | 架构与超参 | L3 / 第4章 | ✅ |
+| 04 | 混合专家 MoE | L4 / 第5章 | ✅ |
+| 05 | GPU 硬件与优化 | L5 / 第6章 | ✅ |
+| 06 | 算子与 Triton | L6 / 第7章 | ✅ |
+| 07 | 分布式并行训练 | L7-8 / 第8章 | ✅ |
+| 08 | 扩展定律 | L9/11 / 第9章 | ✅ |
+| 09 | 模型推理 | L10 / 第10章 | ✅ |
+| 10 | 评估与基准 | L12 / 第12章 | ✅ |
+| 11 | 数据工程 | L13-14 / 第11章 | ✅ |
+| 12 | 训练流程 | / 第13章 | ✅ |
+| 13 | 对齐 SFT/RLHF/DPO/GRPO/RLVR | L15-17 / 第14章 | ✅ |
+| 14 | 多模态模型 | / 第15章 | ✅ |
+| 15 | 客座讲座与前沿 | 课程收尾 | ✅ |
+
+> 每篇笔记均合并 Stanford CS336 英文原版讲座 + Datawhale《DIY-LLM》对应中文章节，大白话、条分缕析。
+
+### 🧩 课程大作业（Assignment）
+
+- [x] **A1** 分词器与 Transformer 基础（对应笔记 01–04）
+- [x] **A2** 系统优化（FlashAttention / 分布式）（对应笔记 05–07）
+- [x] **A3** 扩展定律（对应笔记 08）
+- [x] **A4** 数据工程（对应笔记 11）
+- [x] **A5** 对齐与推理 RL（对应笔记 09、13）
 
 ---
 
